@@ -16,9 +16,8 @@ const Home = () => {
           I'm a Front End Developer.
         </h2>
         <p className='text-[#8892b0] py-4 max-w-[600px]'>
-          I’m a front end developer specializing in building (and occasionally
-          designing) exceptional digital experiences. Currently, I’m focused on
-          building responsive full-stack web applications.
+          I’m a front end developer specializing in building exceptional digital experiences. Currently, I’m focused on
+          building responsive front-end web applications.
         </p>
         <div>
           <button className='text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-yellow-600 hover:border-yellow-600'>
