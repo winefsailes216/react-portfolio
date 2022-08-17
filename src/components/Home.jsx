@@ -13,7 +13,7 @@ const Home = () => {
           Winefredo Sailes
         </h1>
         <h2 className='text-4xl sm:text-6xl font-bold text-[#8892b0]'>
-          I'm a Front End Developer.
+          I'm a Web Developer.
         </h2>
         <p className='text-[#8892b0] py-4 max-w-[600px]'>
           I’m a front end developer specializing in building exceptional digital experiences. Currently, I’m focused on
