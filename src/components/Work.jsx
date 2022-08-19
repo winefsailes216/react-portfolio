@@ -2,6 +2,7 @@ import React from 'react';
 import Work1 from '../assets/work-1.png';
 import Work2 from '../assets/work-2.png';
 import Work3 from '../assets/work-3.png';
+import Work4 from '../assets/work-5.png';
 
 const Work = () => {
   return (
@@ -18,6 +19,29 @@ const Work = () => {
         <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
 
             {/* Grid Item */}
+            <div
+            style={{ backgroundImage: `url(${Work4})` }}
+            className='shadow-lg shadow-[#686a6d] group container rounded-md flex justify-center items-center mx-auto content-div'
+          >
+            {/* Hover Effects */}
+            <div className='opacity-0 group-hover:opacity-100'>
+              <span className='text-xl font-bold text-white tracking-wider'>
+                React JS Application
+              </span>
+              <div className='pt-8 text-center'>
+                <a href='https://react-movie-miniproject.vercel.app/'>
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                    Demo
+                  </button>
+                </a>
+                {/* <a href='/'>
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                    Code
+                  </button>
+                </a> */}
+              </div>
+            </div>
+          </div>
           <div
             style={{ backgroundImage: `url(${Work1})` }}
             className='shadow-lg shadow-[#686a6d] group container rounded-md flex justify-center items-center mx-auto content-div'
@@ -65,52 +89,8 @@ const Work = () => {
             </div>
           </div>
             {/* Grid Item */}
-          <div
-            style={{ backgroundImage: `url(${Work3})` }}
-            className='shadow-lg shadow-[#686a6d] group container rounded-md flex justify-center items-center mx-auto content-div'
-          >
-            {/* Hover Effects */}
-            <div className='opacity-0 group-hover:opacity-100'>
-              <span className='text-xl font-bold text-white tracking-wider'>
-                HTML, CSS, JS, Bootstrap
-              </span>
-              <div className='pt-8 text-center'>
-                <a href='https://winefsailes216.github.io/proj-1/'>
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                    Demo
-                  </button>
-                </a>
-                {/* <a href='/'>
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                    Code
-                  </button>
-                </a> */}
-              </div>
-            </div>
-          </div>
-          <div
-            style={{ backgroundImage: `url(${Work2})` }}
-            className='shadow-lg shadow-[#686a6d] group container rounded-md flex justify-center items-center mx-auto content-div'
-          >
-            {/* Hover Effects */}
-            <div className='opacity-0 group-hover:opacity-100'>
-              <span className='text-xl font-bold text-white tracking-wider'>
-              Vue JS Application
-              </span>
-              <div className='pt-8 text-center'>
-                <a href='https://shoes-dev.vercel.app/'>
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                    Demo
-                  </button>
-                </a>
-                {/* <a href='/'>
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                    Code
-                  </button>
-                </a> */}
-              </div>
-            </div>
-          </div>
+          
+          
             {/* Grid Item */}
           <div
             style={{ backgroundImage: `url(${Work3})` }}
@@ -135,29 +115,7 @@ const Work = () => {
               </div>
             </div>
           </div>
-          <div
-            style={{ backgroundImage: `url(${Work1})` }}
-            className='shadow-lg shadow-[#686a6d] group container rounded-md flex justify-center items-center mx-auto content-div'
-          >
-            {/* Hover Effects */}
-            <div className='opacity-0 group-hover:opacity-100'>
-              <span className='text-xl font-bold text-white tracking-wider'>
-              HTML, CSS, JS, Portfolio
-              </span>
-              <div className='pt-8 text-center'>
-                <a href='https://winefredosailes-portfolio.vercel.app/'>
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                    Demo
-                  </button>
-                </a>
-                {/* <a href='/'>
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                    Code
-                  </button>
-                </a> */}
-              </div>
-            </div>
-          </div>
+          
         </div>
       </div>
     </div>
